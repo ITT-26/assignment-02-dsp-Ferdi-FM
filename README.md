@@ -9,41 +9,42 @@
 
 ### For Windows
 Open The Root-Directory (Assignment-02-...) in a Terminal and create + activate the virtual enviroment with:
-'''
+
+````
 py -m venv venv
 venv\Scripts\activate
-'''
+````
 (venv) should now be displayed before your new CommandLine in the Terminal
 
 Next install the requirements:
-'''
+````
 pip install -r requirements.txt
-'''
+````
 
-Then open the desired file,
+Then open the desired file,\
 For [Karaoke](#karaoke):
-'''
+````
 py karaoke_game\karaoke.py
-'''
+````
 For [Whistle-Input](#whistle-input):
-'''
+````
 py whistle_input\whistle-input.py
-'''
+````
 ### For Mac
 The Steps are the same, but the concrete commands different:
-'''
+````
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 python3 karaoke_game/karaoke.py
 python3 whistle_input/whistle-input.py
-'''
+````
 
 ### Closing
 Just type:
-'''
+````
 deactivate
-'''
+````
 
 # Karaoke
 On Start your connected sound-devices will show in the terminal.\
